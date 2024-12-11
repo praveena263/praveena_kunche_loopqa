@@ -1,0 +1,92 @@
+{
+    "signIn": {
+        "userName": "admin",
+        "password": "password123"
+      },
+    "testCases": [
+      {
+        "buttonName": "Web Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "first",
+            "validations": [
+              { "locatorType": "text", "locatorValue": "Implement user authentication" },
+              { "locatorType": "text", "locatorValue": "Feature" },
+              { "locatorType": "text", "locatorValue": "High Priority" }
+            ]
+          }
+        ]
+      },
+      {
+        "buttonName": "Web Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "first",
+            "validations": [
+              { "locatorType": "nestedText", "locator": ".mb-2", "locatorValue": "Fix navigation bug" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "Bug" }
+            ]
+          }
+        ]
+      },
+      {
+        "buttonName": "Web Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "nth",
+            "index": 1,
+            "validations": [
+              { "locatorType": "text", "locatorValue": "Design system updates" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "Design" }
+            ]
+          }
+        ]
+      },
+      {
+        "buttonName": "Mobile Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "first",
+            "validations": [
+              { "locatorType": "text", "locator": "h3", "locatorValue": "Push notification system" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "Feature" }
+            ]
+          }
+        ]
+      },
+      {
+        "buttonName": "Mobile Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "nth",
+            "index": 1,
+            "validations": [
+              { "locatorType": "text", "locator": "h3", "locatorValue": "Offline mode" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "High Priority" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "Feature" }
+            ]
+          }
+        ]
+      },
+      {
+        "buttonName": "Mobile Application",
+        "selectors": [
+          {
+            "locator": ".w-80",
+            "type": "nth",
+            "index": 3,
+            "validations": [
+              { "locatorType": "text", "locator": "h3", "locatorValue": "App icon design" },
+              { "locatorType": "tag", "locator": "span", "locatorValue": "Design" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
